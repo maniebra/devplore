@@ -1,0 +1,54 @@
+@font-face {
+  font-family: lib3am;
+  src: url(../../fonts/lib3am.otf);
+}
+@font-face {
+  font-family: salma;
+  src: url(../../fonts/salma.otf);
+}
+
+html {
+  font-family: salma;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+::-webkit-scrollbar {
+  clip: auto;
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: black; /* Set the background color of the thumb */
+  /* Round the corners of the thumb */
+  border-radius: 20px;
+  margin: 10px;
+  clip: auto;
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: transparent; /* Set the background color of the track */
+
+  clip: auto;
+}
+
+button {
+  font-family: salma;
+  font-size: 12pt;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 90px;
+  padding: 15px;
+  cursor: pointer;
+}

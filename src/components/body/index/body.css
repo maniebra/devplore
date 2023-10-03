@@ -1,0 +1,36 @@
+.content {
+  display: block;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border: black solid 2px;
+  height: 100%;
+}
+.content h2 {
+  padding-left: 10px;
+}
+.welcome button {
+  display: block;
+  margin-top: 0px;
+  margin-right: 0;
+  margin-left: auto;
+}
+.courses-box {
+  border: black solid 2px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+.courses-container {
+  overflow-x: hidden;
+  clip: auto;
+}
+.problems-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  grid-row-start: auto;
+}
