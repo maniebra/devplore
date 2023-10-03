@@ -1,0 +1,30 @@
+.problem {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.problem h3 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bolder;
+  font-size: 17pt;
+}
+.problem h5 {
+  margin-left: 30px;
+  margin-top: 0;
+  font-size: 14pt;
+
+  font-weight: bolder;
+}
+.problem button {
+  background-color: white;
+  color: black;
+  display: block;
+  margin-right: 10px;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
